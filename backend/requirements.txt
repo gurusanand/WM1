@@ -28,11 +28,13 @@ typing_extensions==4.14.0
 urllib3==2.5.0
 Werkzeug==3.1.3
 
-# Add this line ↓↓↓
+# --- required to run your FastAPI app ---
 uvicorn[standard]==0.30.6
 
-# AI and Machine Learning
+# --- this is the one missing during build ---
 openai>=1.3.0
+
+# Optional (since you listed them): 
 langchain>=0.0.350
 langchain-openai>=0.0.2
 langgraph>=0.0.20
