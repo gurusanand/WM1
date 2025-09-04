@@ -40,3 +40,4 @@ langchain-openai>=0.0.2
 langgraph>=0.0.20
 
 numpy
+gunicorn>=21.2
